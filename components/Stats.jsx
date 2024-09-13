@@ -20,7 +20,7 @@ const stats = [
     text: "Code commits",
   },
 ];
-
+// stats
 const Stats = () => {
   return (
     <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
