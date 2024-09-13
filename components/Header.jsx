@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 
 // components
 import Nav from "./Nav";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
         <Link href="/">
-          <h1 className="text-4xl font-semibold font-bold">Portfolio</h1>
+          <h1 className="text-4xl font-bold">Portfolio</h1>
         </Link>
 
         {/* desktop nav & hire me button */}
@@ -27,7 +28,9 @@ const Header = () => {
 
         {/* mobile nav */}
 
-        <div className="xl:hidden">mobile nav</div>
+        <div className="xl:hidden">
+         <MobileNav />
+          </div>
       </div>
     </header>
   );
