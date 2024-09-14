@@ -9,7 +9,7 @@ const certifications = [
   {
     id: 1,
     title: "Frontend",
-    image: "/assets/frontend.png",
+    image: "/assets/frontend.jpg",
     link: "" // This can be removed if you don't need it
   },
   // Uncomment and add more certifications as needed
