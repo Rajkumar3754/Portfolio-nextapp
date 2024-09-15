@@ -18,12 +18,12 @@ const services = [
     Description: "Transforming data into actionable insights to drive business decisions.",
     href: "/data-analytics",
   },
-  {
-    num: "03",
-    title: "UI/UX Designing",
-    Description: "Crafting intuitive and visually appealing user interfaces and experiences.",
-    href: "/ui-ux-designing",
-  },
+  // {
+  //   num: "03",
+  //   title: "UI/UX Designing",
+  //   Description: "Crafting intuitive and visually appealing user interfaces and experiences.",
+  //   href: "/ui-ux-designing",
+  // },
 ];
 
 const Service = () => {

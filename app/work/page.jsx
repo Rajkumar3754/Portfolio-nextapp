@@ -16,25 +16,39 @@ import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
+
   {
     num: "01",
-    category: "frontend",
-    title: "Project 1",
-    description: "",
-    stack: [{ name: "HTML 5" }, { name: "CSS3" }, { name: "JavaScript" }],
-    image: "/assets/thumb1.png",
-    live: "#",
-    github: "#",
+    category: "Frontend Project",
+    title: "Tourist Booking web application",
+    description: "As a developer, I built a sophisticated Tourist Booking Web Application using React.js and Tailwind CSS. The app features a dynamic homepage showcasing popular destinations and tours, detailed tour pages with comprehensive information, and a seamless booking interface. Users can also manage their bookings and personal details through a dedicated profile section. React.js ensures an interactive and modular user interface, while Tailwind CSS provides a modern, responsive design. The project focused on optimizing performance, ensuring mobile-friendliness, and creating a user-centric experience..",
+    stack: [ { name:"Reactjs" },{ name:"TailwindsCss" }],
+    image: "/assets/thumb3.jpg",
+    live: "https://tourap.vercel.app/",
+    github: "https://github.com/Rajkumar3754/React-with-Tailwinds-css/tree/main/tour%20app",
   },
+
   {
     num: "02",
-    category: "backend",
-    title: "Project 2",
-    description: "",
-    stack: [{ name: "Node.js" }, { name: "Express" }, { name: "MongoDB" }],
-    image: "/assets/thumb2.png",
-    live: "#",
-    github: "#",
+    category: "FullStack Project",
+    title: "Bookstore web application",
+    description: "Developed a full-stack bookstore application using the MERN stack (MongoDB, Express.js, React, Node.js). The application features comprehensive CRUD operations: users can create new book entries, read and view details of existing books, update book information, and delete books from the database. Leveraged React for the frontend to build an interactive user interface, while Express.js and Node.js managed the backend logic and API routes. MongoDB was utilized for storing book data, ensuring efficient data management and retrieval. Although the free edition of MongoDB led to slower loading times, it provided a valuable learning experience in managing real-world database performance and optimization.",
+    stack: [ { name: "Reactjs" },{ name: "TailwindsCss" }, { name: "Nodejs" }, { name: "Expressjs" }, { name: "MongoDb" },{ name: "Mongoose" }],
+    image: "/assets/thumb1.jpg",
+    live: "https://book-storing-app.vercel.app/",
+    github: "https://github.com/Rajkumar3754/BookStoring-app",
+  },
+
+
+  {
+    num: "03",
+    category: "FullStack Project",
+    title: "Real Estate web application",
+    description: "Developed a real estate application using the MERN stack (MongoDB, Express.js, React, Node.js) with Google Authentication for secure user login. The application features advanced search functionality, allowing landlords to filter and manage property listings by location, price, and type. Integrated Swiper to provide an interactive image carousel for showcasing property details and used Redux Toolkit for efficient state management. Employed Redux Persist to maintain user sessions and search preferences across page reloads. Firebase was utilized for storing property images and user data. MongoDB handled backend data management, ensuring efficient processing of property and user information. While using MongoDB’s free edition resulted in some initial slow loading times, it was a minor issue and offered valuable experience in managing database performance.",
+    stack: [  { name: "Reactjs" },{ name: "TailwindsCss" }, { name: "Nodejs" }, { name: "Expressjs" }, { name: "MongoDb" },{ name: "Mongoose" },,{ name: "Reduxtoolkit" }],
+    image: "/assets/thumb2.jpg",
+    live: "https://realestate-fullstack-app.onrender.com/",
+    github: "https://github.com/Rajkumar3754/RealEstate-fullstack-app",
   },
   // Add more projects as needed
 ];

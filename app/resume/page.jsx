@@ -79,7 +79,7 @@ const experience = {
     {
       company: "Global solution groups",
       position: "Junior Software developer",
-      duration: "2024-2026",
+      duration: "2024 (present)",
     },
   ],
 };
@@ -89,7 +89,7 @@ const Education = {
   icons: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "I am a full-stack developer with a solid foundation in mechanical engineering. My engineering background equips me with strong problem-solving skills and analytical thinking, which I now apply to creating robust and scalable software solutions. Transitioning from mechanical engineering to full-stack development, I've developed expertise in both front-end and back-end technologies, driving innovative projects with a detail-oriented approach.",
+    "I am a Software developer with a solid foundation in mechanical engineering. My engineering background equips me with strong problem-solving skills and analytical thinking, which I now apply to creating robust and scalable software solutions. Transitioning from mechanical engineering to Software development, I've developed expertise in both front-end and back-end technologies, driving innovative projects with a detail-oriented approach.",
   items: [
     // {
     //   institution: "Online Course Platform",
