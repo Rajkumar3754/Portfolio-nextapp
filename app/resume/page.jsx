@@ -8,12 +8,14 @@ import {
   SiDocker,
   SiTailwindcss,
   SiMongodb,
+  SiRedux,
   SiMongoose,
   SiMysql,
   SiPostgresql,
   SiPostman,
   SiInsomnia,
   SiLinux,
+  SiMongoosedotws,
 } from "react-icons/si";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
@@ -29,16 +31,16 @@ import { motion } from "framer-motion";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. At eligendi facilis illum incidunt doloremque sunt quo nemo possimus nobis ut quis, enim ullam fugiat, tempore saepe dolor ipsum laborum nisi!",
+    "",
   info: [
-    { fieldName: "Name", fieldValue: "Rajkumar" },
+    { fieldName: "Name", fieldValue: "U.Rajkumar" },
     { fieldName: "Phone", fieldValue: "(+91) 9360550686" },
     { fieldName: "Experience", fieldValue: "0 year" },
-    { fieldName: "Teams", fieldValue: "u.rajkumar2001@gmail.com" },
+    { fieldName: "MsTeams", fieldValue: "u.rajkumar2001@gmail.com" },
     { fieldName: "Nationality", fieldValue: "Indian" },
     { fieldName: "Email", fieldValue: "u.rajkumar2001@gmail.com" },
     { fieldName: "Freelance", fieldValue: "Available" },
-    { fieldName: "Language", fieldValue: "English,Tamil" },
+    { fieldName: "Language", fieldValue: "English, Tamil" },
   ],
 };
 
@@ -47,37 +49,37 @@ const experience = {
   icons: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. At eligendi facilis illum incidunt doloremque sunt quo nemo possimus nobis ut quis, enim ullam fugiat, tempore saepe dolor ipsum laborum nisi!",
+    "These are my experiences and journey in the tech industry:",
   items: [
+    // {
+    //   company: "Tech solution",
+    //   position: "Fullstack Developer",
+    //   duration: "2024 - Present",
+    // },
+    // {
+    //   company: "Web Design Studio",
+    //   position: "Front-End Developer Intern",
+    //   duration: "Summer 2025",
+    // },
+    // {
+    //   company: "E-commerce Startup",
+    //   position: "Freelance Web Developer",
+    //   duration: "2031-2034",
+    // },
+    // {
+    //   company: "Tech Academy",
+    //   position: "Teaching Assistant",
+    //   duration: "2035-2039",
+    // },
+    // {
+    //   company: "Digital Agency",
+    //   position: "UI/UX Designer",
+    //   duration: "2018-2019",
+    // },
     {
-      company: "Tech solution",
-      position: "Fullstack Developer",
-      duration: "2024 - Present",
-    },
-    {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2025",
-    },
-    {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2031-2034",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2035-2039",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018-2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017-2018",
+      company: "Global solution groups",
+      position: "Junior Software developer",
+      duration: "2024-2026",
     },
   ],
 };
@@ -87,42 +89,42 @@ const Education = {
   icons: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. At eligendi facilis illum incidunt doloremque sunt quo nemo possimus nobis ut quis, enim ullam fugiat, tempore saepe dolor ipsum laborum nisi!",
+    "I am a full-stack developer with a solid foundation in mechanical engineering. My engineering background equips me with strong problem-solving skills and analytical thinking, which I now apply to creating robust and scalable software solutions. Transitioning from mechanical engineering to full-stack development, I've developed expertise in both front-end and back-end technologies, driving innovative projects with a detail-oriented approach.",
   items: [
+    // {
+    //   institution: "Online Course Platform",
+    //   Degree: "Fullstack Web Development Bootcamp",
+    //   duration: "2023",
+    // },
+    // {
+    //   institution: "Online Course Platform",
+    //   Degree: "Fullstack Web Development Bootcamp",
+    //   duration: "2023",
+    // },
+    // {
+    //   institution: "Code Academy",
+    //   Degree: "Front-End Track",
+    //   duration: "2022",
+    // },
+    // {
+    //   institution: "Online Course",
+    //   Degree: "Programming Course",
+    //   duration: "2020-2021",
+    // },
+    // {
+    //   institution: "Tech Institute",
+    //   Degree: "Certified Web Developer",
+    //   duration: "2019",
+    // },
     {
-      institution: "Online Course Platform",
-      Degree: "Fullstack Web Development Bootcamp",
-      duration: "2023",
+      institution: "Online course",
+      Degree: "Fullstack web development course",
+      duration: "2023-2024",
     },
     {
-      institution: "Online Course Platform",
-      Degree: "Fullstack Web Development Bootcamp",
-      duration: "2023",
-    },
-    {
-      institution: "Code Academy",
-      Degree: "Front-End Track",
-      duration: "2022",
-    },
-    {
-      institution: "Online Course",
-      Degree: "Programming Course",
-      duration: "2020-2021",
-    },
-    {
-      institution: "Tech Institute",
-      Degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      Degree: "Diploma in Graphic Design",
-      duration: "2016-2018",
-    },
-    {
-      institution: "Community College",
-      Degree: "Associate Degree in Computer",
-      duration: "2009-2010",
+      institution: "Anna university",
+      Degree: "Mechanical engineering",
+      duration: "2019-2023",
     },
   ],
 };
@@ -131,7 +133,7 @@ const Education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. At eligendi facilis illum incidunt doloremque sunt quo nemo possimus nobis ut quis, enim ullam fugiat, tempore saepe dolor ipsum laborum nisi!",
+    "I have experience in the following below mention skills",
   skillList: [
     { icon: <FaHtml5 />, name: "HTML5" },
     { icon: <FaCss3 />, name: "CSS3" },
@@ -141,7 +143,8 @@ const skills = {
     { icon: <FaNodeJs />, name: "Node.js" },
     { icon: <SiExpress />, name: "Express" },
     { icon: <SiMongodb />, name: "MongoDB" },
-    { icon: <SiMongoose />, name: "Mongoose" },
+    { icon: <SiMongoosedotws />, name: "Mongoose" },
+    { icon: <SiRedux />, name: "Redux toolkit" },
     { icon: <SiMysql />, name: "MySQL" },
     { icon: <SiPostgresql />, name: "PostgreSQL" },
     { icon: <SiTailwindcss />, name: "Tailwind CSS" },
@@ -295,8 +298,8 @@ const Resume = () => {
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0 ">
                   {about.info.map((item, index) => {
                     return (
-                      <li key={index}  className="flex items-center justify-center xl:justify-start gap-4">
-                        <span className="text-white/60">{item.fieldName}</span>
+                      <li key={index}  className="flex items-center justify-center xl:justify-start gap-6">
+                        <span className="text-white/60">{item.fieldName}:</span>
                         <span className="text-xl"  >{item.fieldValue}</span>
                       </li>
                     );
